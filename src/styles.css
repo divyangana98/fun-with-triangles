@@ -1,0 +1,138 @@
+body {
+  margin: 0px;
+  font-family: sans-serif;
+}
+
+:root {
+  --primary-color: #161a42;
+  --secondary-color: #716eab;
+  --background-color: #e9dfdf;
+}
+
+.header {
+  color: var(--primary-color);
+  padding: 2rem;
+  font-size: 16px;
+  font-weight: bold;
+  background: linear-gradient(to right, #e9dfdf, #716eab);
+  border-bottom-right-radius: 1rem;
+}
+
+.container {
+  border: 1px solid black;
+  margin: 1rem auto auto;
+  width: 80%;
+  border-radius: 1rem;
+  border-color: var(--background-color);
+  background: var(--background-color);
+}
+
+h1 {
+  margin: 0px;
+}
+
+h2 {
+  margin: 2rem 0 1rem 0;
+}
+li {
+  list-style: none;
+  display: inline;
+  padding-left: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+nav {
+  text-align: right;
+}
+
+a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+.sub-section {
+  text-align: center;
+}
+
+.pageOne-heading {
+  color: var(--primary-color);
+  text-align: center;
+}
+
+.sub-heading {
+  text-align: center;
+  color: var(--primary-color);
+  margin-top: 0px;
+}
+
+.sub-section label {
+  color: var(--primary-color);
+  display: block;
+  margin: 1rem;
+  font-weight: bold;
+}
+
+.quiz-section label {
+  padding: 1rem;
+}
+
+.sub-section input {
+  border: 1px;
+  width: 15rem;
+  border-radius: 1rem;
+  padding: 1rem;
+  border: 2px solid #716eab;
+}
+
+input :active {
+  border: 2px solid #716eab;
+}
+.div-btn {
+  text-align: center;
+}
+
+form {
+  text-align: center;
+  margin: 1rem;
+}
+
+p {
+  color: var(--primary-color);
+}
+
+.option-label {
+  color: var(--primary-color);
+}
+
+.btn {
+  border: 1px;
+  width: 15rem;
+  border-radius: 1rem;
+  padding: 1rem;
+  background: var(--secondary-color);
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+footer {
+  text-align: center;
+  display: block;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 2rem 0 0;
+  margin-top: 2rem;
+}
+
+.output {
+  text-align: center;
+}
+
+.correct {
+  color: green;
+}
+
+.incorrect {
+  color: red;
+}

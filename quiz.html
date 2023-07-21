@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="src/styles.css">
+  </head>
+
+  <body>
+    <div id="app">
+      <header class="header">
+        <div class="header-heading">
+          <h1>Fun with Triangles</h1>
+        </div>
+        <nav class="nav-item">
+          <ul class="unordered">
+            <li class="list-item">
+              <a href="/index.html" class="link">is Triangle?</a>
+            </li>
+            <li class="list-item">
+              <a href="/quiz.html" class="link">Quiz</a>
+            </li>
+            <li class="list-item">
+              <a href="/hypotenuse.html" class="link">Hypotenuse</a>
+            </li>
+            <li class="list-item">
+              <a href="/area.html" class="link">Area</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <div class="content">
+        <div class="pageOne">
+          <h2 class="pageOne-heading">Quiz on triangles</h2>
+          <h3 class="sub-heading">1 mark is awarded for each correct answer</h3>
+          <form class="quiz-form">
+            <div class="quiz-section">
+              <div class="input-group">
+                <p>
+                  1. What is the third angle for the triangle where angle1 = 45°
+                  and angle2 = 45°?
+                </p>
+                <label class="option-label">
+                  <input type="radio" value="45°" name="question1" />
+                  45°
+                </label>
+                <label class="option-label">
+                  <input type="radio" value="60°" name="question1" />
+                  60°
+                </label>
+                <label class="option-label">
+                  <input type="radio" value="90°" name="question1" />
+                  90°
+                </label>
+              </div>
+              <div class="input-group">
+                <p>
+                  2. A triangle can have
+                </p>
+                <label class="option-label">
+                  <input
+                    type="radio"
+                    value="one right angles"
+                    name="question2"
+                  />
+                  one right angle
+                </label>
+                <label class="option-label">
+                  <input
+                    type="radio"
+                    value="two right angles"
+                    name="question2"
+                  />
+                  two right angles
+                </label>
+              </div>
+              <div class="input-group">
+                <p>
+                  3. Which of the following triangles are always similar?
+                </p>
+                <label class="option-label">
+                  <input
+                    type="radio"
+                    value="Equilateral triangle"
+                    name="question3"
+                  />
+                  Equilateral triangle
+                </label>
+                <label class="option-label">
+                  <input
+                    type="radio"
+                    value="Isosceles triangle"
+                    name="question3"
+                  />
+                  Isosceles triangle
+                </label>
+              </div>
+              <div class="input-group">
+                <p>
+                  4. Which of the following form a right angled triangle?
+                </p>
+                <label class="option-label">
+                  <input type="radio" value="14, 15, 26" name="question4" />
+                  14, 15, 26
+                </label>
+                <label class="option-label">
+                  <input type="radio" value="12, 16, 20" name="question4" />
+                  12, 16, 20
+                </label>
+              </div>
+            </div>
+          </form>
+          <div class="div-btn">
+            <button class="btn">Submit</button>
+            <button class="btn" id="reset-btn">Reset</button>
+          </div>
+          <div class="output-div">
+            <h3 class="output"></h3>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <p>2023 | ZylithCodes</p>
+      </footer>
+    </div>
+
+    <script src="src/quiz-script.js"></script>
+  </body>
+</html>
